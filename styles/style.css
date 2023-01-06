@@ -1,0 +1,83 @@
+/* General Styles to prevent default styles using Universal Selector(*) */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans';
+}
+/* Utility Styles */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.d-flex{
+    display: flex;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.flex-1{
+    flex: 1;
+}
+.btn-primary{
+    background-color: #005FAC;
+    padding: 20px 36px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+}
+.btn-secondary{
+    background-color: #FFFFFF;
+    padding: 20px 36px;
+    border-radius: 8px;
+    color: #005FAC;
+    border: none;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+}
+
+/* Main Styles */
+#header{
+    background: url(../images/banner/banner3.png) no-repeat ;
+    background-size: 100% 100%;
+}
+    /* Hero(banner) Section */
+.banner{
+    padding: 11rem 0;
+}
+.banner-info{
+    width: 60%;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 75px;
+    color:#FFFFFF;
+    margin-bottom: 1.5rem;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 2rem;
+    color:#FFFFFF; 
+}
+.banner .banner-info button{
+    display: block;
+    margin-left: auto;
+}
+.backstory{
+    gap: 87px;
+}
+.backstory-img img{
+    width: 100%;
+}
