@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
     <title>Future - How I'll become a full stack Jr. Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc8c3219c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header id="header">
@@ -19,25 +20,85 @@
         </section>
     </header>
     <main>
-        <section class="backstory container d-flex">
+        <section id="backstory" class="container d-flex align-center">
             <div class="backstory-img flex-1">
-                <img src="images/person.png" alt="">
+                <img src="images/person.png" alt="The Content Creator Photo">
             </div>
             <div class="backstory-info flex-1">
                 <h2 class="backstory-title">My Failures of previous year</h2>
                 <p class="backstory-description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
                 <ul class="backstory-list">
-                    <li>Contrary to popular belief, is not simply.</li>
-                    <li>Contrary to popular belief.</li>
-                    <li>Contrary to popular, is not simply</li>
-                    <li></li>
-                    <li>Contrary to popular simply</li>
+                    <li><i class="fas fa-check"></i> Contrary to popular belief, is not simply.</li>
+                    <li><i class="fas fa-check"></i> contrary to popular belief.</li>
+                    <li><i class="fas fa-check"></i> Contrary to popular, is not simply</li>
+                    <li><i class="fas fa-check"></i> Contrary to popular, is not simply</li>
+                    <li><i class="fas fa-check"></i> Contrary to popular simply</li>
                 </ul>
+            </div>
+        </section>
+        <section id="plans" class="container">
+            <h2 class="section-heading">My Plans</h2>
+            <div class="all-plans d-flex justify-between align-center">
+                <div class="plan">
+                    <div class="plan-img text-center">
+                        <img src="images/icons/web.png" alt="Web Icon">
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>I want to start</p>
+                </div>
+                <div class="plan">
+                    <div class="plan-img text-center">
+                        <img src="images/icons/js.png" alt="Javasrcipt Icon">
+                    </div>
+                    <h3>Javascript</h3>
+                    <p>I want to start</p>
+                </div>
+                <div class="plan">
+                    <div class="plan-img text-center">
+                        <img src="images/icons/smoke.png" alt="smoking danger alert Icon">
+                    </div>
+                    <h3>Smoking Habit</h3>
+                    <p>I want to end</p>
+                </div>
+                <div class="plan">
+                    <div class="plan-img text-center">
+                        <img src="images/icons/ecom.png" alt="Ecommerce cart icon">
+                    </div>
+                    <h3>Ecommerce Website</h3>
+                    <p>I want to Develope</p>
+                </div>
+            </div>
+        </section>
+        <section id="call-to-action" class="container">
+            <div>
+                <h2>Always Keep a positive mindset</h2>
+                <button class="btn-secondary">Call Now</button>
             </div>
         </section>
     </main>
     <footer>
-
+        <div class="contact-info-wrapper container d-flex">
+            <div class="contact-description flex-1">
+                <h2>Future</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+                <p>Email: info@gmail.com</p>
+                <p>Phone: +8801245678910</p>
+                <div class="socials">
+                    <ul class="d-flex">
+                        <li><a href="#"><img src="images/icons/fb.png" alt="Facebook Icon"></a></li>
+                        <li><a href="#"><img src="images/icons/twitter.png" alt="Twitter Icon"></a></li>
+                        <li><a href="#"><img src="images/icons/youtube.png" alt="Youtube Icon"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-form flex-1">
+               <h2>Subscribe</h2> 
+               <form action="">
+                <input type="email" name="" id=""placeholder="Enter your email">
+                <input type="button" value="Subscribe" class="btn-primary">
+               </form>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
